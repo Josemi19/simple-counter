@@ -9,7 +9,7 @@ function Counter(props) {
 		<>
 			<div className="reloj">
 				<div className="clock">
-					<i className="fa-regular fa-clock"></i>
+					<i className="fa fa-clock" />
 				</div>
 				<div className="fourth">{props.fourth % 10}</div>
 				<div className="third">{props.third % 10}</div>
